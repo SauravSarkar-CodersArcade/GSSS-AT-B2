@@ -1,0 +1,179 @@
+Problem Statement:
+Demonstrate the use of 'new' and 'delete' keywords in C++
+by initializing an array with the size dynamically allocated
+and then by freeing the memory.
+
+Problem statement: HackerEarth March 2023 Wipro
+Create a const pointer function which will take a
+character input from the user and based on that it will
+recommend some food to the user.
+Constraint:
+1. The first letter will correspond to the food
+that is suggested by the function.
+Example: 'a' -> "Apple", etc.
+2. The function name can be: RecommendMeSomeFood()
+
+Problem Statement:
+Rotate an array in the clockwise direction by one position.
+Input array: {1,2,3,4,5}
+Output array: {5,1,2,3,4}
+
+Problem Statement:
+HackerEarth: March 2023, Accenture
+Given an array of integers, and a given sum variable(x), check whether
+that sum is actually present in any consecutive pair in the array.
+Display 'Yes' or 'No' based on the comparison in the result.
+Constraints: 0 <= N <= 100
+
+Problem Statement:
+Given an array, display the maximum in the array till n-th term
+as the output array.
+Sample input:  0 -1  2 -4  6
+Sample Output: 0  0  2  2  6
+Important Interview Questions in C++
+Q. Generic Function:
+Problem Statement: Create a generic function in C++
+using swap algorithm to swap any data type given to the function.
+a = 10
+b = 20
+c = 'a'
+d = 'b'
+Q. Generic Pointer
+Problem Statement:
+Create a function with a void pointer which can point to
+any kind of pointer based on the target character provided by
+the user, and provide the proper value in that respective
+data type.
+Note: The void pointer should be type casted to that particular
+data type based on the user input (argument) passed in the
+function call.
+HackerRank: February/September/December 2023 : TCS Ninja, Wipro, Accenture
+
+Q. Function Pointer:
+What is a function pointer?
+Syntax:
+return_type (*ptr) (t1,t2....,tn) = function_name;
+
+Q. Unique Pointer
+A unique pointer is a 1-1 relationship between a pointer(p)
+and it's allocated object in the heap (new int).
+p owns the object and has only one owner 'p';
+If we need a different owner, we have to use the move() function.
+** A unique pointer cannot be passed by value.
+Header File #inclue <memory>
+It is used for fast applications. The memory is auto-deleted.
+
+Object Oriented Programming:
+Problem Statement 1:
+Create a class Employee with the following attributes:
+Name, Company, Age;
+Create a method called employeeDetails() to display all
+the attributes.
+Constraint: Don't create a constructor.
+
+Encapsulation:
+The process of making the data members of a class private so that
+they cannot be accidentally modified from outside the class is called
+encapsulation. The private data members can be accessed outside the class
+using special public functions called 'setters' & 'getters'.
+
+Or, Binding the code and the data members inside a block so that they
+are not accidentally modified is called encapsulation.
+
+Example: College bag, capsule, Letter inside envelope, etc.
+
+Problem Statement:
+Create an Equilateral Triangle class which has a friend class(Triangle) and a
+friend function(PrintResults) to calculate the area, perimeter of the triangle.
+
+/* HackerEarth : DXC/Infosys
+ * Problem Statement: Imagine you have a printer which can print n number of pages
+ * Create a Printer Class
+ * Provide attributes : name, availablePaper
+ * Create a parameterised constructor to take the given values from the user
+ * If the printer can print the length of the textDocument divided 10 / page,
+ * demonstrate how you will handle exceptions
+ * if the printer runs out of Paper in all the possible ways.
+ */
+
+ Hacker Rank: TCS / Capgemini :
+ Problem Statement: Demonstrate the use of Singly Linked List using classes
+ in C++ to represent the Integer Series.
+ -2, -1, 0 , 1, 2, 3, 4
+
+Problem Statement:
+Implement the given tree data structure and demonstrate the tree
+BFS Traversal Algorithms to print the data in the tree.
+Recursion:
+PreOrder : DLR
+InOrder : LDR
+PostOrder : LRD
+Q. In the Post Order Traversal, which node is printed at last?
+=> Root Node
+
+Hacker Rank:
+Problem Statement:
+Implement a Binary Tree using a class as per the given diagram.
+Also, make the constructor explicit so that it can avoid/restrict
+abnormal changes to the data.
+Constraints: After using the memory, deallocate the memory for all the
+respective nodes.
+
+Problem Statement:
+Given a string, find the greatest number from that string using
+built-in C++ functions.
+"95927321" -> 99753221
+
+Problem Statement:
+Hacker Earth: 2023 May Accenture, Infosys
+Given three different dynamic arrays, find the common element in
+these three arrays by using the StandardTemplateLibrary-Vector Data Structure.
+
+Problem Statement:
+Hacker Earth: 15th June 2023 Accenture
+Implement a StandardTemplateLibrary::Map & UnorderedMap
+to take the key:value pair <"State":"Language"> and insert the
+respective states and their corresponding languages in the map.
+
+"""
+Two types of maps:
+1. Ordered Map -> Alphabetical Order
+2. Unordered Map -> Hashing Order
+*** Hash Collision ?
+"""
+
+Problem Statement: **VV IMP
+Illustrate the use of "map with list of strings" to store
+the names of students and their favourite food in a list,
+which will be inserted into a map.
+Use STL::map for the same.
+Also, iterate over the map to display the data in each
+row in a single line.
+
+Problem Statement: TCS/Accenture:
+Given three vectors of integer data type, find the common elements in the
+three vectors by demonstrating the use of STL:vector built-in functions.
+
+Problem Statement: TCS/Capgemini:
+Given a doubly linked list     null<-1->2->3->4->null,
+write a program to traverse the list in both
+forward and backward directions.
+Make use of user-defined functions for the same.
+
+Problem Statement :
+Given a STL : queue, reverse it using any data structure
+and display the contents of the original queue and the
+reversed queue.
+DXC, TCS -> August 2023, 6th
+
+
+
+
+
+
+
+
+
+
+
+
